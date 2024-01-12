@@ -27,14 +27,14 @@ const Links = () => {
       >
         <BiLogoLinkedin className="link-icon" size={24} />
       </a>
-      <a
+      {/*<a
         aria-label="View Resume PDF"
         className="link"
         target="_blank"
         href={resume}
       >
         <BiNote className="link-icon" size={24} />
-      </a>
+      </a> */}
       {/* <a aria-label="Send E-mail" className="link" href="">
         <BiEnvelope className="link-icon" size={24} />
       </a> */}
