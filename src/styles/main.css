@@ -102,3 +102,17 @@ body {
   position: absolute;
   bottom: 0;
 }
+
+.company {
+  text-decoration: none;
+  color: inherit;
+}
+
+.company:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.company:hover {
+  color: var(--link-color-hover);
+}
