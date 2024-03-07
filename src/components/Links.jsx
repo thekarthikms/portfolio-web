@@ -1,12 +1,6 @@
-// icons
-import {
-  BiEnvelope,
-  BiLogoGithub,
-  BiLogoLinkedin,
-  BiNote,
-} from "react-icons/bi";
 // resume
-import resume from "../assets/KarthikMS_Resume.pdf";
+import resume from "../assets/KarthikMS_Resume.pdf"
+import { Icon } from "@iconify/react"
 
 const Links = () => {
   return (
@@ -17,7 +11,7 @@ const Links = () => {
         target="_blank"
         href="https://github.com/thekarthikms"
       >
-        <BiLogoGithub className="link-icon" size={24} />
+        <Icon icon="bxl:github" height={24} className="link-icon" />
       </a>
       <a
         aria-label="View LinkedIn Profile"
@@ -25,20 +19,20 @@ const Links = () => {
         target="_blank"
         href="https://www.linkedin.com/in/thekarthikms/"
       >
-        <BiLogoLinkedin className="link-icon" size={24} />
+        <Icon icon="bxl:linkedin" height={24} className="link-icon" />
       </a>
-      {/*<a
+      {/* <a
         aria-label="View Resume PDF"
         className="link"
         target="_blank"
         href={resume}
       >
-        <BiNote className="link-icon" size={24} />
-      </a> */}
-      {/* <a aria-label="Send E-mail" className="link" href="">
-        <BiEnvelope className="link-icon" size={24} />
+        <Icon icon="bx:note" height={24} className="link-icon" />
+      </a>
+      <a aria-label="Send E-mail" className="link" href="">
+        <Icon icon="bx:envelope" height={24} className="link-icon" />
       </a> */}
     </div>
-  );
-};
-export default Links;
+  )
+}
+export default Links
