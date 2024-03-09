@@ -12,6 +12,14 @@
     --link: #3881c3;
   }
 
+  .dark{
+    /* --background: #f0e6db;
+    --text: #202023; */
+    --background: #202023;
+    --text: #efefef;
+    --link: #3881c3;
+  }
+
   body::-webkit-scrollbar,
   html::-webkit-scrollbar {
     display: none;
