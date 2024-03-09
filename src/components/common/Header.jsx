@@ -1,4 +1,4 @@
-import Logo from "@/components/Logo"
+import Logo from "@/components/common/Logo"
 import { ThemeContext } from "@/context/ThemeProvider"
 import { Icon } from "@iconify/react"
 import { useContext, useState } from "react"
