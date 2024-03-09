@@ -9,7 +9,7 @@ const About = () => {
         <p className="text-[#696560]">
           Developer / Designer / Anime Enthusiast
         </p>
-        <p className="font-medium text-[#575757]">
+        <p className="font-medium text-[#575757] text-justify">
           I’m a front-end developer based in India. I’m a self-taught developer
           and my expertise is in developing web applications and websites using
           React, Javascript and other front-end technologies. I love using my
