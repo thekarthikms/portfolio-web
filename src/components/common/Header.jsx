@@ -6,7 +6,7 @@ import { useContext, useState } from "react"
 const Header = () => {
   const { isDark, toggleTheme } = useContext(ThemeContext)
   return (
-    <div className="flex items-center justify-between max-w-[1024px] w-full py-4 select-none fixed top-0  px-4">
+    <div className="flex items-center justify-between max-w-[1024px] w-full py-4 select-none fixed top-0  px-4 z-[999]">
       <div className="flex gap-2 items-center">
         <Logo textcolor="var(--text)" size="20" />
         <h1 className="text-2xl font-bold leading-none">Karthik</h1>

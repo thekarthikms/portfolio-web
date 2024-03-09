@@ -20,9 +20,9 @@ const ThemeProvider = ({ children }) => {
 
   useEffect(() => {
     if (_retrieveData(ISDARK) === null) {
-      _storeData(ISDARK, true)
-      setIsDark(true)
-      document.documentElement.classList.add("dark")
+      _storeData(ISDARK, false)
+      setIsDark(false)
+      // document.documentElement.classList.add("dark")
     } else if (_retrieveData(ISDARK)) {
       setIsDark(true)
       document.documentElement.classList.add("dark")
