@@ -5,10 +5,10 @@ import Logo from "@/components/Logo"
 import NameBio from "@/components/NameBio"
 
 import Header from "@/components/common/Header"
-import Main from "@/components/Main"
-import About from "@/components/About"
-import Projects from "@/components/Projects"
-import Contact from "@/components/Contact"
+import Main from "@/components/sections/Main"
+import About from "@/components/sections/About"
+import Projects from "@/components/sections/Projects"
+import Contact from "@/components/sections/Contact"
 
 const oldApp = () => {
   return (
