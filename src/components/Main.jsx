@@ -1,8 +1,9 @@
 import { Icon } from "@iconify/react"
+import resume from "@/assets/KarthikMS_Resume.pdf"
 
 const Main = () => {
   return (
-    <div className="h-screen w-full flex flex-col items-center gap-4 justify-center snap-center">
+    <div className="h-screen w-full flex flex-col items-center gap-4 justify-center snap-center" id="main">
       <p className="text-4xl sm:text-6xl font-bold">Karthik M S</p>
       <div className="bg-black/5 px-4 sm:px-16 py-4 rounded-lg">
         <p className="font-medium text-sm sm:text-base">
@@ -26,12 +27,14 @@ const Main = () => {
         >
           <Icon icon="bxl:linkedin" height={24} />
         </a>
-        <a
-          href="#"
-          className="bg-textColor text-backgroundColor px-4 py-2 rounded-md font-medium"
+        {/* <a
+          aria-label="View Resume PDF"
+          className="link"
+          target="_blank"
+          href={resume}
         >
-          View my work
-        </a>
+          <Icon icon="bx:note" height={24} className="link-icon" />
+        </a> */}
       </div>
     </div>
   )

@@ -5,7 +5,10 @@ import Logo from "@/components/Logo"
 import NameBio from "@/components/NameBio"
 
 import Header from "@/components/common/Header"
-import Main from "./components/Main"
+import Main from "@/components/Main"
+import About from "@/components/About"
+import Projects from "@/components/Projects"
+import Contact from "@/components/Contact"
 
 const oldApp = () => {
   return (
@@ -26,7 +29,9 @@ const App = () => {
       <Header />
       <div className="h-[100svh] w-full  overflow-y-scroll snap-y snap-mandatory no-scrollbar">
         <Main />
-        <Main />
+        <About />
+        <Projects />
+        <Contact />
       </div>
     </div>
   )

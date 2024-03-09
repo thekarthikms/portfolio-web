@@ -10,9 +10,9 @@ const Header = () => {
       </div>
       <nav className="flex items-center gap-8">
         <div className="hidden md:flex items-center gap-6 font-medium">
-          <p className="cursor-pointer">about.</p>
-          <p className="cursor-pointer">projects.</p>
-          <p className="cursor-pointer">contact.</p>
+          <a  href="#about" className="cursor-pointer">about.</a>
+          <a  href="#projects" className="cursor-pointer">projects.</a>
+          <a  href="#contact" className="cursor-pointer">contact.</a>
         </div>
         <div className="bg-textColor p-2 rounded-md cursor-pointer">
           <Icon
