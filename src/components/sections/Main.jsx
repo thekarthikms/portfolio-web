@@ -16,7 +16,7 @@ const Main = () => {
       <div className="flex gap-4 mt-4 items-center">
         <a
           aria-label="View GitHub Profile"
-          className="link"
+          className="hover:scale-125"
           target="_blank"
           href="https://github.com/thekarthikms"
         >
@@ -24,7 +24,7 @@ const Main = () => {
         </a>
         <a
           aria-label="View LinkedIn Profile"
-          className="link"
+          className="hover:scale-125"
           target="_blank"
           href="https://www.linkedin.com/in/thekarthikms/"
         >

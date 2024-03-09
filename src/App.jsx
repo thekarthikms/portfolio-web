@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div className="bg-backgroundColor text-textColor h-[100svh] flex items-center flex-col relative ">
       <Header />
-      <div className="h-screen w-full  overflow-y-scroll snap-y snap-mandatory no-scrollbar">
+      <div className="h-full w-full  overflow-y-scroll snap-y snap-mandatory no-scrollbar">
         <Main />
         <About />
         <Projects />
