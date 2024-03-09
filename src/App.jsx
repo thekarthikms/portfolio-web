@@ -1,19 +1,21 @@
-// components
-import Logo from "./components/Logo.jsx";
-import NameBio from "./components/NameBio";
-import Links from "./components/Links";
+import Header from "@/components/common/Header"
+import Main from "@/components/sections/Main"
+import About from "@/components/sections/About"
+import Projects from "@/components/sections/Projects"
+import Contact from "@/components/sections/Contact"
 
 const App = () => {
   return (
-    <section id="intro">
-      <div id="intro-info">
-        <Logo textcolor="white" bgcolor="none" />
-        <NameBio />
-        <Links />
-        <div className="dim">portfolio under updation.</div>
+    <div className="bg-backgroundColor text-textColor flex items-center flex-col relative ">
+      <Header />
+      <div className="h-[100svh] w-full  overflow-y-scroll snap-y snap-mandatory no-scrollbar">
+        <Main />
+        <About />
+        <Projects />
+        <Contact />
       </div>
-    </section>
-  );
-};
+    </div>
+  )
+}
 
-export default App;
+export default App
