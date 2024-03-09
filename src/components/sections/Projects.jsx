@@ -30,7 +30,7 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="h-screen w-full flex flex-col items-center gap-4 justify-center snap-center"
+      className="h-full w-full flex flex-col items-center gap-4 justify-center snap-center"
     >
       <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-6  px-6 mt-10">
         {projectsList.map((item) => (
