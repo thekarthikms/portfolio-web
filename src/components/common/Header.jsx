@@ -1,7 +1,7 @@
 import Logo from "@/components/Logo"
 import { ThemeContext } from "@/context/ThemeProvider"
 import { Icon } from "@iconify/react"
-import { useContext } from "react"
+import { useContext, useState } from "react"
 
 const Header = () => {
   const { isDark, toggleTheme } = useContext(ThemeContext)
@@ -23,25 +23,68 @@ const Header = () => {
             contact.
           </a>
         </div>
-        <div
-          className="bg-textColor p-2 rounded-md cursor-pointer"
-          onClick={toggleTheme}
-        >
-          {isDark ? (
-            <Icon
-              icon="material-symbols:light-mode-outline"
-              height={20}
-              className="text-backgroundColor"
-            />
-          ) : (
-            <Icon
-              icon="material-symbols:dark-mode-outline"
-              height={20}
-              className="text-backgroundColor"
-            />
-          )}
+        <div className="flex gap-2">
+          <div
+            className="bg-textColor p-2 rounded-md cursor-pointer border border-textColor"
+            onClick={toggleTheme}
+          >
+            {isDark ? (
+              <Icon
+                icon="material-symbols:light-mode-outline"
+                height={20}
+                className="text-backgroundColor"
+              />
+            ) : (
+              <Icon
+                icon="material-symbols:dark-mode-outline"
+                height={20}
+                className="text-backgroundColor"
+              />
+            )}
+          </div>
+          <Menu />
         </div>
       </nav>
+    </div>
+  )
+}
+
+const Menu = () => {
+  const [open, setOpen] = useState(false)
+  return (
+    <div className="border border-highlightColor text-secondaryColor text p-2 rounded-md cursor-pointer relative block md:hidden">
+      <Icon
+        icon="material-symbols:menu"
+        height={20}
+        onClick={() => setOpen((prev) => !prev)}
+      />
+      {open && (
+        <div className="absolute top-10 right-0 px-4 py-2 bg-highlightColor rounded-md w-[150px]">
+          <div className="flex md:hidden flex-col items-left gap-6  font-medium">
+            <a
+              href="#about"
+              className="cursor-pointer"
+              onClick={() => setOpen(false)}
+            >
+              about.
+            </a>
+            <a
+              href="#projects"
+              className="cursor-pointer"
+              onClick={() => setOpen(false)}
+            >
+              projects.
+            </a>
+            <a
+              href="#contact"
+              className="cursor-pointer"
+              onClick={() => setOpen(false)}
+            >
+              contact.
+            </a>
+          </div>
+        </div>
+      )}
     </div>
   )
 }
