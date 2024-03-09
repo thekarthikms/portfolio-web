@@ -4,7 +4,7 @@ import resume from "@/assets/KarthikMS_Resume.pdf"
 const Main = () => {
   return (
     <div
-      className="h-screen w-full flex flex-col items-center gap-4 justify-center snap-center px-4"
+      className="h-full w-full flex flex-col items-center gap-4 justify-center snap-center px-4"
       id="main"
     >
       <p className="text-4xl sm:text-6xl font-bold">Karthik M S</p>
