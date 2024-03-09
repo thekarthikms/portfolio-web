@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="h-screen w-full flex flex-col items-center gap-4 justify-center snap-center"
+      className="h-screen w-full flex flex-col items-center gap-4 justify-center snap-center relative"
     >
       <div className="flex flex-col items-center max-w-[400px] w-full gap-4">
         <p className="font-bold">Find me at:</p>
@@ -42,6 +42,9 @@ const Contact = () => {
           </a>
         </div>
       </div>
+      <p className="absolute bottom-5 text-tertiaryText text-center text-sm md:text-base">
+        © 2024 Karthik M S. All Rights Reserved.
+      </p>
     </div>
   )
 }
