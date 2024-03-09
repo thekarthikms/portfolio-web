@@ -6,7 +6,7 @@ import Contact from "@/components/sections/Contact"
 
 const App = () => {
   return (
-    <div className="bg-backgroundColor text-textColor h-[100svh] flex items-center flex-col relative ">
+    <div className="bg-backgroundColor text-textColor h-screen flex items-center flex-col relative ">
       <Header />
       <div className="h-full w-full  overflow-y-scroll snap-y snap-mandatory no-scrollbar">
         <Main />
