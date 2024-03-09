@@ -3,10 +3,13 @@ import resume from "@/assets/KarthikMS_Resume.pdf"
 
 const Main = () => {
   return (
-    <div className="h-screen w-full flex flex-col items-center gap-4 justify-center snap-center" id="main">
+    <div
+      className="h-screen w-full flex flex-col items-center gap-4 justify-center snap-center px-4"
+      id="main"
+    >
       <p className="text-4xl sm:text-6xl font-bold">Karthik M S</p>
-      <div className="bg-black/5 px-4 sm:px-16 py-4 rounded-lg">
-        <p className="font-medium text-sm sm:text-base">
+      <div className="bg-highlightColor px-4 sm:px-16 py-4 rounded-lg">
+        <p className="font-medium text-sm sm:text-base text-center">
           Hello, I&apos;m a frontend developer based in India{" "}
         </p>
       </div>

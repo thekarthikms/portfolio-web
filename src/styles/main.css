@@ -7,16 +7,20 @@
   :root {
     --background: #f0e6db;
     --text: #202023;
+    --secondary-text: #575757;
+    --tertiary-text: #8e8881;
+    --highlight: #e9daca;
+    --link: #3881c3;
     /* --background: #202023;
     --text: #efefef; */
-    --link: #3881c3;
   }
 
-  .dark{
-    /* --background: #f0e6db;
-    --text: #202023; */
+  .dark {
     --background: #202023;
-    --text: #efefef;
+    --text: #eaeaea;
+    --secondary-text: #a1a1a1;
+    --tertiary-text: #696560;
+    --highlight: #2e2e2e;
     --link: #3881c3;
   }
 

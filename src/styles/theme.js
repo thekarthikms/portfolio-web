@@ -5,7 +5,10 @@ const fontFamily = {
 const colors = {
   backgroundColor: "var(--background)",
   textColor: "var(--text)",
+  secondaryText: "var(--secondary-text)",
+  tertiaryText: "var(--tertiary-text)",
   linkColor: "var(--link)",
+  highlightColor: "var(--highlight)",
 }
 
 const extendTheme = {

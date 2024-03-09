@@ -48,11 +48,11 @@ const Projects = () => {
 
 const ProjectItem = ({ name, desc, link }) => {
   return (
-    <div className="flex flex-col justify-between gap-2 py-2 md:py-4 px-4 rounded-md border border-[#E0D3C5]  hover:bg-[#E0D3C5] cursor-pointer transition-all">
+    <div className="flex flex-col justify-between gap-2 py-2 md:py-4 px-4 rounded-md border border-highlightColor  hover:bg-highlightColor cursor-pointer transition-all">
       {/* <div className="h-[200px]  w-[400px] bg-black/30 rounded-md"></div> */}
       <div>
         <p className="text-md md:text-2xl font-bold">{name}</p>
-        <p className="font-medium  max-w-[350px] w-full text-sm md:text-base">
+        <p className="font-medium  max-w-[350px] w-full text-sm md:text-base text-secondaryText">
           {desc}
         </p>
       </div>

@@ -6,10 +6,10 @@ const About = () => {
     >
       <div className="max-w-[700px] w-full flex flex-col items-left justify-center gap-4 px-6">
         <p className="text-4xl sm:text-6xl font-bold">Karthik M S</p>
-        <p className="text-[#696560]">
+        <p className="text-tertiaryText">
           Developer / Designer / Anime Enthusiast
         </p>
-        <p className="font-medium text-[#575757] text-justify">
+        <p className="font-medium text-secondaryText text-justify">
           I’m a front-end developer based in India. I’m a self-taught developer
           and my expertise is in developing web applications and websites using
           React, Javascript and other front-end technologies. I love using my
