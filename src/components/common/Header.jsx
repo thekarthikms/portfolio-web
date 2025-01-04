@@ -14,13 +14,13 @@ const Header = () => {
       <nav className="flex items-center gap-8">
         <div className="hidden md:flex items-center gap-6 font-medium">
           <a href="#about" className="cursor-pointer">
-            about.
+            #about
           </a>
           <a href="#projects" className="cursor-pointer">
-            projects.
+            #projects
           </a>
           <a href="#contact" className="cursor-pointer">
-            contact.
+            #contact
           </a>
         </div>
         <div className="flex gap-2">
@@ -66,21 +66,21 @@ const Menu = () => {
               className="cursor-pointer"
               onClick={() => setOpen(false)}
             >
-              about.
+              #about
             </a>
             <a
               href="#projects"
               className="cursor-pointer"
               onClick={() => setOpen(false)}
             >
-              projects.
+              #projects
             </a>
             <a
               href="#contact"
               className="cursor-pointer"
               onClick={() => setOpen(false)}
             >
-              contact.
+              #contact
             </a>
           </div>
         </div>
