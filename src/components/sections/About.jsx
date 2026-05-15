@@ -7,29 +7,22 @@ const About = () => {
 
 				<div className='font-medium text-secondaryText text-justify'>
 					<p>
-						Software Engineer specializing in frontend architecture, high-performance web systems, and cross-platform
-						mobile apps using React and React Native. With 5+ years of experience across freelance, product, and
-						client-facing environments, I focus on transforming complex UI/UX designs into scalable, clean-code
-						applications. My self-taught background drives my adaptability and deep focus on performance optimization.
-					</p>
-					<p className='mt-4'>
-						Currently at Epoq Zero, I engineer responsive architectures and deliver production-ready systems for a
-						diverse client portfolio.
+						Software Engineer with 5+ years of experience specializing in high-performance web and mobile systems.
+						Currently at Epoq Zero, I focus on building scalable React & React Native applications with a deep
+						emphasis on performance and clean architecture.
 					</p>
 
 					<div className='mt-6'>
 						<p className='font-semibold mb-2'>🛠️ Core Expertise:</p>
 						<ul className='list-disc list-inside space-y-2 ml-1'>
 							<li>
-								<span className='font-semibold'>Web & Mobile:</span> React.js, React Native, Expo, JavaScript (ES6+)
+								<span className='font-semibold'>Tech:</span> React.js, React Native, Expo, JavaScript
 							</li>
 							<li>
-								<span className='font-semibold'>Architecture:</span> System Design, State Management, Cross-Platform
-								UI/UX
+								<span className='font-semibold'>Systems:</span> Frontend Architecture, System Design, UI/UX
 							</li>
 							<li>
-								<span className='font-semibold'>Focus:</span> Web Performance, Scalability, Component Libraries, Agentic
-								Coding (AI Workflows)
+								<span className='font-semibold'>Specialties:</span> Performance, Scalability, AI Workflows
 							</li>
 						</ul>
 					</div>
